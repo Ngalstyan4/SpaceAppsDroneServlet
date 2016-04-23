@@ -1,0 +1,27 @@
+<script type='text/javascript' src='/js/gc/gamecontroller.js'></script>
+<script type='text/javascript'>
+    $( function() { // jQuery *not* required - just be to call onload
+GameController.init( {
+    left: {
+        type: 'joystick'
+    },
+    right: {
+        position: {
+            right: '5%'
+        },
+        type: 'buttons',
+        buttons: [
+        {
+            label: 'jump', fontSize: 13, touchStart: function() {
+                // do something
+            }
+        },
+        false, false, false
+        ]
+    }
+} );
+    });
+</script>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+<canvas id="gController"></canvas>

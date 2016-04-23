@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ejs": ">= 0.0.1",
+    "express": "2.5.8",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.13",
+    "redis": "^2.5.3"
+  }
+}
